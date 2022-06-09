@@ -1,0 +1,49 @@
+.userInfoContainer {
+  margin-bottom: 2%;
+  padding: 20px 30px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  max-width: 800px;
+  background: #ffeddf;
+  display: flex;
+  /* align-items: center; */
+}
+.userImage {
+  margin-right: 15px;
+}
+
+.userPersonalInfo {
+  min-width: 300px;
+  max-width: 400px;
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 2px solid #dfdfdf;
+}
+
+.underline {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.userName {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.userInfoText {
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-right: 15px;
+  min-width: 250px;
+}
+
+.userViewDetails {
+  display: flex;
+  width: 100px;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+}

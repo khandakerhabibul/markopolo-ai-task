@@ -1,0 +1,78 @@
+.createUserContainer {
+  padding: 40px 30px;
+}
+
+.goBack {
+  text-decoration: underline;
+  color: tomato;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 2px solid #dfdfdf;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.bodyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 700px;
+  padding: 2%;
+  background: #ffeddf;
+  border: 2px solid #dfdfdf;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.inputContainer {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.handleUser {
+  border-top: 2px solid #dfdfdf;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  padding-top: 20px;
+}
+
+.handleUserBtn {
+  height: 40px;
+  background-color: #249b15;
+  border: 1px solid #249b15;
+  font-size: 16px;
+  padding: 1% 2%;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.noData {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.link {
+  margin: 0px 8px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: tomato;
+}

@@ -1,0 +1,17 @@
+.customInputContainer {
+  margin-bottom: 20px;
+}
+
+.customInputLabel {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.customInputStyle {
+  height: 30px;
+  width: 300px;
+  font-size: 16px;
+  padding: 2px 10px;
+  /* border-radius: 8px 0px 0px 8px; */
+  border: 1px solid #000;
+}

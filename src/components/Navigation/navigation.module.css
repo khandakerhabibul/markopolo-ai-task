@@ -1,0 +1,30 @@
+.navContainer {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #003049;
+  color: white;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.routes {
+  display: flex;
+  align-items: center;
+}
+
+.route {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.logOut {
+  margin: 0px 10px 0px 30px;
+  cursor: pointer;
+  background-color: #d62828;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
